@@ -20,6 +20,7 @@ mostrarán los respectivos tweets que contengan esa palabra mediante el uso de l
 Utilizaremos:
 
 _  JSONP que sirve para realizar llamadas sobre Ajax entre dominios.
+
 _ jQuery.ajax para realizar el envió de datos y obtener una respuesta con los tweets desde Twitter.
 
 Twitter: @_soldier
