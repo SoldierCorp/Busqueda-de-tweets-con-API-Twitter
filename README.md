@@ -4,12 +4,16 @@ Sencilla aplicación en la cual podremos realizar búsquedas por perfil o por cu
 mostrarán los respectivos tweets que contengan esa palabra mediante el uso de la API Search de Twitter.
 
 - Librerías JS
+
   -jQuery
-	-Prefixfree
+  
+  -Prefixfree
 
 - Diseño
-	-Bootstrap
-	-Flat UI 
+  
+  -Bootstrap
+
+  -Flat UI 
 
 Utilizaremos:
 _  JSONP que sirve para realizar llamadas sobre Ajax entre dominios.
