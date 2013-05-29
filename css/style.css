@@ -1,0 +1,108 @@
+header {
+	background: #34495E;
+	border-radius: 6px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding: 10px 0;
+	text-align: center;
+	width: 550px;
+}
+header h1 {
+	color: white;
+}
+section {
+	background: #eceff1;
+	border-radius: 6px;
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+	height: 400px;
+	margin: 0 auto;
+	margin-top: 5px;
+	padding:10px;
+	width: 530px;
+}
+section > p:first-child {
+	text-align: center;
+	width: 100%;
+}
+section p input, 
+section p .btn {
+	display: inline-block;
+	vertical-align: top;
+}
+section p input {
+	width: 70%
+}
+section p .btn {
+	width: 20%;
+}
+section h4 {
+	background: rgb(27,188,155);
+	border-radius: 6px;
+	color: white;
+	padding: 8px 0;
+	text-align: center;
+}
+section h6 {
+	background: rgba(236, 112, 99, 0.3);
+	border-radius: 4px;
+	color: #34495E;
+	display: none;
+	padding: 4px;
+	text-transform: none;
+}
+article {
+	background: #ECEFF1;
+	border-radius: 6px;
+	height: 250px;
+	padding: 10px;
+	overflow-y: auto;
+}
+ol li {
+	background: #DEE4E8;
+	border-radius: 4px;
+	padding: 5px;
+	margin: 5px 0;
+}
+.tweet {
+	border-bottom: 1px solid rgb(27,188,155);
+	display: none;
+	margin-bottom: 5px;
+	min-height: 50px;
+}
+.tweet img,
+.tweet .info {
+	display: inline-block;
+	vertical-align: top;
+}
+.tweet img {
+	border-radius: 3px;
+	cursor: pointer;
+	float: left;
+	margin-right: 10px;
+}
+.tweet .info {
+	width: 85%;
+}
+.tweet .name {
+	font-weight: bold;
+	margin-right: 10px;
+}
+.tweet .date {
+	color: gray;
+	float: right;
+}
+footer {
+	margin: 0 auto;
+	margin-top: 5px;
+	width: 550px;
+}
+body footer p {
+	background: #34495E;
+	border-radius: 6px;
+	color: white;
+	font-size: 13px;
+	padding: 10px;
+}
